@@ -1,0 +1,251 @@
+Source: radxa-profiles
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: libs
+Priority: optional
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+
+Package: task-rockchip
+Architecture: all
+Priority: optional
+Depends: chromium-x11,
+         gstreamer1.0-alsa,
+         gstreamer1.0-gl,
+         gstreamer1.0-gtk3,
+         gstreamer1.0-libav,
+         gstreamer1.0-opencv,
+         gstreamer1.0-plugins-bad-apps,
+         gstreamer1.0-plugins-bad,
+         gstreamer1.0-plugins-base-apps,
+         gstreamer1.0-plugins-base,
+         gstreamer1.0-plugins-good,
+         gstreamer1.0-plugins-ugly,
+         gstreamer1.0-pulseaudio,
+         gstreamer1.0-qt5,
+         gstreamer1.0-rockchip1,
+         gstreamer1.0-tools,
+         gstreamer1.0-wpe,
+         gstreamer1.0-x,
+         libdrm-cursor,
+         libkms1,
+         librockchip-mpp1,
+         librockchip-vpu0,
+         libdvbv5-0,
+         libv4l-0,
+         libv4l2rds0,
+         libv4l2convert0,
+         libv4l-rkmpp,
+         xserver-xorg-core,
+         xserver-xorg-legacy,
+         ${misc:Depends},
+Description: Metapackages for common Rockchip vendor packages
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rk3399
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         rkisp-engine,
+         rockchip-iqfiles,
+         libmali-midgard-t86x-r18p0-x11,
+         ${misc:Depends},
+Description: Metapackages for common RK3399 vendor packages
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rk356x
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         camera-engine-rkaiq (>= 2.0.0), camera-engine-rkaiq (<< 3.0.0),
+         rockchip-iqfiles,
+         libmali-bifrost-g52-g2p0-x11,
+         ${misc:Depends},
+Description: Metapackages for common RK356x vendor packages
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rk3588
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         camera-engine-rkaiq (>= 3.0.0), camera-engine-rkaiq (<< 4.0.0),
+         rockchip-iqfiles,
+         libmali-valhall-g610-g6p0,
+         ${misc:Depends},
+Description: Metapackages for common RK3588 vendor packages
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-amlogic
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Metapackages for common Amlogic vendor packages
+ This package will install prebuilt packages from Amlogic that
+ provide a more optimized user experience.
+
+Package: task-radxa-cm3-io
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for Radxa CM3 IO
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-radxa-cm3-rpi-cm4-io
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for Radxa CM3 RPI CM4 IO
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-radxa-e23
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for Radxa E23
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-radxa-e25
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for Radxa E25
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-radxa-nx5
+Architecture: all
+Priority: optional
+Depends: task-rk3588,
+         ${misc:Depends},
+Description: Metapackages for Radxa NX5
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-radxa-zero
+Architecture: all
+Priority: optional
+Depends: task-amlogic,
+         ${misc:Depends},
+Description: Metapackages for Radxa ZERO
+ This package will install prebuilt packages from Amlogic that
+ provide a more optimized user experience.
+
+Package: task-radxa-zero2
+Architecture: all
+Priority: optional
+Depends: task-amlogic,
+         ${misc:Depends},
+Description: Metapackages for Radxa ZERO 2
+ This package will install prebuilt packages from Amlogic that
+ provide a more optimized user experience.
+
+Package: task-rock-3a
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for ROCK 3A
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-3b
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for ROCK 3B
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-3c
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for ROCK 3c
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-4c-plus
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK 4C Plus
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-5a
+Architecture: all
+Priority: optional
+Depends: task-rk3588,
+         ${misc:Depends},
+Description: Metapackages for ROCK 5A
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-5b
+Architecture: all
+Priority: optional
+Depends: task-rk3588,
+         ${misc:Depends},
+Description: Metapackages for ROCK 5B
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-pi-4b
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK Pi 4B
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-pi-4c
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK Pi 4C
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-pi-e
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         ${misc:Depends},
+Description: Metapackages for ROCK Pi E
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-pi-n10
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         ${misc:Depends},
+Description: Metapackages for ROCK Pi N10
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-pi-s
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         ${misc:Depends},
+Description: Metapackages for ROCK Pi S
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
