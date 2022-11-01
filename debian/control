@@ -11,6 +11,7 @@ Package: task-rockchip
 Architecture: all
 Priority: optional
 Depends: chromium-x11,
+         rockchip-chromium-x11-utils,
          gstreamer1.0-alsa,
          gstreamer1.0-gl,
          gstreamer1.0-gtk3,
