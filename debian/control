@@ -61,7 +61,7 @@ Package: task-rk356x
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
-         camera-engine-rkaiq (>= 2.0.0), camera-engine-rkaiq (<< 3.0.0),
+         camera-engine-rkaiq (>> 1.0.0), camera-engine-rkaiq (<< 3.0.0),
          rockchip-iqfiles,
          libmali-bifrost-g52-g2p0-x11,
          ${misc:Depends},
@@ -73,9 +73,9 @@ Package: task-rk3588
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
-         camera-engine-rkaiq (>= 3.0.0), camera-engine-rkaiq (<< 4.0.0),
+         camera-engine-rkaiq (>> 2.0.0), camera-engine-rkaiq (<< 4.0.0),
          rockchip-iqfiles,
-         libmali-valhall-g610-g6p0,
+         libmali-valhall-g610-g6p0-x11,
          ${misc:Depends},
 Description: Metapackages for common RK3588 vendor packages
  This package will install prebuilt packages from Rockchip that
