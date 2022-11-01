@@ -124,12 +124,12 @@ Description: Metapackages for Radxa E25
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
-Package: task-radxa-nx5
+Package: task-radxa-nx5-io
 Architecture: all
 Priority: optional
 Depends: task-rk3588,
          ${misc:Depends},
-Description: Metapackages for Radxa NX5
+Description: Metapackages for Radxa NX5 IO
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
