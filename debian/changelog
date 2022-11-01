@@ -1,3 +1,9 @@
+radxa-profiles (0.1.3) stable; urgency=medium
+
+  * Fix package dependencies
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 01 Nov 2022 20:33:24 +0800
+
 radxa-profiles (0.1.2) stable; urgency=medium
 
   * Rename radxa-nx5 to radxa-nx5-io
