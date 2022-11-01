@@ -1,7 +1,7 @@
 /.debhelper
 /debhelper-build-stamp
 /files
-/task-*
+/task-*/
 /tmp
 /*.debhelper.log
 /*.postrm.debhelper
