@@ -2,6 +2,7 @@
 /debhelper-build-stamp
 /files
 /task-*
+/tmp
 /*.debhelper.log
 /*.postrm.debhelper
 /*.substvars

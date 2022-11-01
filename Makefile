@@ -53,7 +53,7 @@ clean-doc:
 
 .PHONY: clean-deb
 clean-deb:
-	rm -rf debian/.debhelper debian/${PROJECT} debian/task-* debian/debhelper-build-stamp debian/files debian/*.debhelper.log debian/*.postrm.debhelper debian/*.substvars
+	rm -rf debian/.debhelper debian/${PROJECT} debian/task-* debian/tmp debian/debhelper-build-stamp debian/files debian/*.debhelper.log debian/*.postrm.debhelper debian/*.substvars
 
 #
 # Release
