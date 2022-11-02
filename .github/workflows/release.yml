@@ -34,6 +34,7 @@ jobs:
           else
             echo "distro=$(dpkg-parsechangelog -S Distribution)" >> $GITHUB_ENV
           fi
+          sed "s/VERSION/$(dpkg-parsechangelog -S Version)/g" pkg.conf > ../pkg.conf
       - name: Release
         if: env.distro != 'UNRELEASED'
         uses: softprops/action-gh-release@cd28b0f5ee8571b76cfdaa62a30d51d752317477
@@ -45,7 +46,7 @@ jobs:
           draft: false
           files: |
             ../*.deb
-            pkg.conf
+            ../pkg.conf
       - name: Append changelog
         if: env.distro != 'UNRELEASED'
         uses: softprops/action-gh-release@cd28b0f5ee8571b76cfdaa62a30d51d752317477
