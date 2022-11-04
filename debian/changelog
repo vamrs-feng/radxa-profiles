@@ -1,3 +1,9 @@
+radxa-profiles (0.1.5) stable; urgency=medium
+
+  * Add missing product specific packages
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 04 Nov 2022 17:04:26 +0800
+
 radxa-profiles (0.1.4) stable; urgency=medium
 
   * Fix release template
