@@ -7,11 +7,20 @@ Build-Depends: debhelper (>=12~),
                devscripts,
                lintian,
 
-Package: task-rockchip
+Package: task-rockchip-chromium
 Architecture: all
 Priority: optional
 Depends: chromium-x11,
+         libc++1,
          rockchip-chromium-x11-utils,
+Description: Metapackages for Rockchip Chromium port
+ This package will install Rockchip CHromium port and
+ several important dependencies.
+
+Package: task-rockchip
+Architecture: all
+Priority: optional
+Depends: task-rockchip-chromium,
          gstreamer1.0-alsa,
          gstreamer1.0-gl,
          gstreamer1.0-gtk3,
