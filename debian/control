@@ -103,7 +103,7 @@ Architecture: all
 Priority: optional
 Depends: task-rk356x,
          ${misc:Depends},
-Description: Metapackages for Radxa CM3 IO
+Description: Metapackages for Radxa CM3 IO Baseboard
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
@@ -112,7 +112,7 @@ Architecture: all
 Priority: optional
 Depends: task-rk356x,
          ${misc:Depends},
-Description: Metapackages for Radxa CM3 RPI CM4 IO
+Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
@@ -139,7 +139,7 @@ Architecture: all
 Priority: optional
 Depends: task-rk3588,
          ${misc:Depends},
-Description: Metapackages for Radxa NX5 IO
+Description: Metapackages for Radxa NX5 IO Baseboard
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
@@ -184,7 +184,25 @@ Architecture: all
 Priority: optional
 Depends: task-rk356x,
          ${misc:Depends},
-Description: Metapackages for ROCK 3c
+Description: Metapackages for ROCK 3C
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-4a-plus
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK 4A+
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-4b-plus
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK 4B+
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
@@ -193,7 +211,16 @@ Architecture: all
 Priority: optional
 Depends: task-rk3399,
          ${misc:Depends},
-Description: Metapackages for ROCK 4C Plus
+Description: Metapackages for ROCK 4C+
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-4se
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK 4SE
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
@@ -212,6 +239,15 @@ Priority: optional
 Depends: task-rk3588,
          ${misc:Depends},
 Description: Metapackages for ROCK 5B
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rock-pi-4a
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK Pi 4A
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
