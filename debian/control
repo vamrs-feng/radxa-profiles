@@ -121,6 +121,15 @@ Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
+Package: task-radxa-cm3-sodimm-io
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
 Package: task-radxa-e23
 Architecture: all
 Priority: optional
