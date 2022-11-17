@@ -202,21 +202,21 @@ Description: Metapackages for ROCK 3C
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
-Package: task-rock-4a-plus
+Package: task-rock-pi-4a-plus
 Architecture: all
 Priority: optional
 Depends: task-rk3399,
          ${misc:Depends},
-Description: Metapackages for ROCK 4A+
+Description: Metapackages for ROCK Pi 4A+
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
-Package: task-rock-4b-plus
+Package: task-rock-pi-4b-plus
 Architecture: all
 Priority: optional
 Depends: task-rk3399,
          ${misc:Depends},
-Description: Metapackages for ROCK 4B+
+Description: Metapackages for ROCK Pi 4B+
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
