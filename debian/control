@@ -238,6 +238,15 @@ Description: Metapackages for ROCK 4SE
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
+Package: task-rock-4-core-io
+Architecture: all
+Priority: optional
+Depends: task-rk3399,
+         ${misc:Depends},
+Description: Metapackages for ROCK 4 Core Baseboard
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
 Package: task-rock-5a
 Architecture: all
 Priority: optional
