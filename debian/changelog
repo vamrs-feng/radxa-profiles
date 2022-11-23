@@ -1,3 +1,10 @@
+radxa-profiles (0.1.9) stable; urgency=medium
+
+  * Add rock-4-core-io
+  * Add 60-rockchip-drm.rules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 23 Nov 2022 15:19:15 +0800
+
 radxa-profiles (0.1.8) stable; urgency=medium
 
   * Match ROCK 4A/B+ name with upstream
