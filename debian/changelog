@@ -1,3 +1,9 @@
+radxa-profiles (0.1.10) stable; urgency=medium
+
+  * Add extra V4L tools
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 24 Nov 2022 15:04:30 +0800
+
 radxa-profiles (0.1.9) stable; urgency=medium
 
   * Add rock-4-core-io
