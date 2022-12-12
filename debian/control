@@ -81,7 +81,6 @@ Depends: task-rockchip,
          rkisp-engine,
          rockchip-iqfiles,
          libmali-utgard-450-r7p0-x11-gbm,
-         librga2 (>> 2.0.0), librga2 (<< 2.2.0),
          ${misc:Depends},
 Description: Metapackages for common RK3328 vendor packages
  This package will install prebuilt packages from Rockchip that
@@ -94,7 +93,6 @@ Depends: task-rockchip,
          rkisp-engine,
          rockchip-iqfiles,
          libmali-midgard-t86x-r18p0-x11-gbm,
-         librga2 (>> 2.0.0), librga2 (<< 2.2.0),
          ${misc:Depends},
 Description: Metapackages for common RK3399 vendor packages
  This package will install prebuilt packages from Rockchip that
