@@ -1,3 +1,9 @@
+radxa-profiles (0.1.12) stable; urgency=medium
+
+  * Add librga2 dependencies
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 12 Dec 2022 11:36:42 +0800
+
 radxa-profiles (0.1.11) stable; urgency=medium
 
   * Update libmali package name to Rockchip r3.5
