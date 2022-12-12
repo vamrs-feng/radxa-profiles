@@ -1,3 +1,9 @@
+radxa-profiles (0.1.14) stable; urgency=medium
+
+  * Update librga2 version pinning
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 12 Dec 2022 15:18:47 +0800
+
 radxa-profiles (0.1.13) stable; urgency=medium
 
   * Update librga2 version requirement
