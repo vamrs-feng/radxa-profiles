@@ -1,3 +1,10 @@
+radxa-profiles (0.1.15) stable; urgency=medium
+
+  * Fix lintian warnings
+  * Add version pinning for librga2
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 12 Dec 2022 18:14:42 +0800
+
 radxa-profiles (0.1.14) stable; urgency=medium
 
   * Update librga2 version pinning
