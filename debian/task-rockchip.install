@@ -1,1 +1,2 @@
-usr/bin/drm-hotplug.sh usr/bin
+usr/bin/drm-hotplug usr/bin
+man/drm-hotplug.8 /usr/share/man/man8
