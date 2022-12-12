@@ -63,6 +63,27 @@ Description: Metapackages for common Rockchip vendor packages
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
 
+Package: task-rk3308
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Metapackages for common rk3308 vendor packages
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
+Package: task-rk3328
+Architecture: all
+Priority: optional
+Depends: task-rockchip,
+         rkisp-engine,
+         rockchip-iqfiles,
+         libmali-utgard-450-r7p0-x11-gbm,
+         librga2 (= 2.1.0),
+         ${misc:Depends},
+Description: Metapackages for common RK3328 vendor packages
+ This package will install prebuilt packages from Rockchip that
+ provide a more optimized user experience.
+
 Package: task-rk3399
 Architecture: all
 Priority: optional
@@ -302,7 +323,7 @@ Description: Metapackages for ROCK Pi 4C
 Package: task-rock-pi-e
 Architecture: all
 Priority: optional
-Depends: task-rockchip,
+Depends: task-rk3328,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi E
  This package will install prebuilt packages from Rockchip that
@@ -311,7 +332,7 @@ Description: Metapackages for ROCK Pi E
 Package: task-rock-pi-n10
 Architecture: all
 Priority: optional
-Depends: task-rockchip,
+Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi N10
  This package will install prebuilt packages from Rockchip that
@@ -320,7 +341,7 @@ Description: Metapackages for ROCK Pi N10
 Package: task-rock-pi-s
 Architecture: all
 Priority: optional
-Depends: task-rockchip,
+Depends: task-rk3308,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi S
  This package will install prebuilt packages from Rockchip that
