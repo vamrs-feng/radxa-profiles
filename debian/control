@@ -78,7 +78,7 @@ Depends: task-rockchip,
          rkisp-engine,
          rockchip-iqfiles,
          libmali-utgard-450-r7p0-x11-gbm,
-         librga2 (= 2.1.0),
+         librga2 (>= 2.1.0), librga2 (<< 2.2.0),
          ${misc:Depends},
 Description: Metapackages for common RK3328 vendor packages
  This package will install prebuilt packages from Rockchip that
@@ -91,7 +91,7 @@ Depends: task-rockchip,
          rkisp-engine,
          rockchip-iqfiles,
          libmali-midgard-t86x-r18p0-x11-gbm,
-         librga2 (= 2.1.0),
+         librga2 (>= 2.1.0), librga2 (<< 2.2.0),
          ${misc:Depends},
 Description: Metapackages for common RK3399 vendor packages
  This package will install prebuilt packages from Rockchip that
@@ -104,7 +104,7 @@ Depends: task-rockchip,
          camera-engine-rkaiq (>> 1.0.0), camera-engine-rkaiq (<< 3.0.0),
          rockchip-iqfiles,
          libmali-bifrost-g52-g2p0-x11-gbm,
-         librga2 (= 2.2.0),
+         librga2 (>= 2.2.0),
          ${misc:Depends},
 Description: Metapackages for common RK356x vendor packages
  This package will install prebuilt packages from Rockchip that
@@ -117,7 +117,7 @@ Depends: task-rockchip,
          camera-engine-rkaiq (>> 2.0.0), camera-engine-rkaiq (<< 4.0.0),
          rockchip-iqfiles,
          libmali-valhall-g610-g6p0-x11-gbm,
-         librga2 (= 2.2.0),
+         librga2 (>= 2.2.0),
          ${misc:Depends},
 Description: Metapackages for common RK3588 vendor packages
  This package will install prebuilt packages from Rockchip that
