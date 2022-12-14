@@ -1,3 +1,9 @@
+radxa-profiles (0.1.18) stable; urgency=medium
+
+  * Import sound configs from Rockchip overlay
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 14 Dec 2022 17:27:55 +0800
+
 radxa-profiles (0.1.17) stable; urgency=medium
 
   * Remove librga2 version pinning
