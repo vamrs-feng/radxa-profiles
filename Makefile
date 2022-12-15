@@ -42,12 +42,6 @@ $(SRC-DOC)/SOURCE: $(SRC-DOC)
 	echo -e "git clone $(shell git remote get-url origin)\ngit checkout $(shell git rev-parse HEAD)" > "$@"
 
 #
-# Install
-#
-.PHONY: install
-install:
-
-#
 # Clean
 #
 .PHONY: distclean
