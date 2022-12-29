@@ -62,6 +62,7 @@ Depends: gir1.2-gst-plugins-bad-1.0,
          xserver-xorg-core,
          xserver-xorg-legacy,
          ${misc:Depends},
+         rockchip-alsa-config,
 Description: Metapackages for common Rockchip vendor packages
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
