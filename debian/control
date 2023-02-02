@@ -19,6 +19,16 @@ Description: Metapackages for Rockchip Chromium port
  This package will install Rockchip CHromium port and
  several important dependencies.
 
+Package: task-rockchip-sound
+Architecture: all
+Priority: optional
+Depends: rockchip-alsa-config,
+         radxa-alsa-config,
+         ${misc:Depends},
+Description: Metapackages for Rockchip sound config
+ This package provides Rockchip ALSA config and Radxa
+ specific ALSA config.
+
 Package: task-rockchip
 Architecture: all
 Priority: optional
@@ -58,11 +68,11 @@ Depends: gir1.2-gst-plugins-bad-1.0,
          libv4l2rds0,
          libv4lconvert0,
          task-rockchip-chromium,
+         task-rockchip-sound,
          v4l-utils,
          xserver-xorg-core,
          xserver-xorg-legacy,
          ${misc:Depends},
-         rockchip-alsa-config,
 Description: Metapackages for common Rockchip vendor packages
  This package will install prebuilt packages from Rockchip that
  provide a more optimized user experience.
