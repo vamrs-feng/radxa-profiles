@@ -1,3 +1,9 @@
+radxa-profiles (0.2.2) stable; urgency=medium
+
+  * Provide ROCK 4C+ DisplayPort sound support via radxa-alsa-config package
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 02 Feb 2023 11:52:29 +0800
+
 radxa-profiles (0.2.1) stable; urgency=medium
 
   * Move ALSA configs to rockchip-alsa-config package
