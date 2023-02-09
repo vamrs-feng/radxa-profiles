@@ -1,3 +1,9 @@
+radxa-profiles (0.2.3) stable; urgency=medium
+
+  * Maintenance release
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 09 Feb 2023 10:29:24 +0800
+
 radxa-profiles (0.2.2) stable; urgency=medium
 
   * Provide ROCK 4C+ DisplayPort sound support via radxa-alsa-config package
