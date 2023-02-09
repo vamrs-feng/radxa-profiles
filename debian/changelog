@@ -1,3 +1,10 @@
+radxa-profiles (0.2.4) stable; urgency=medium
+
+  * Move configs out of meta package
+  * Support rockchip-hdmi2 sound output
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 09 Feb 2023 15:52:05 +0800
+
 radxa-profiles (0.2.3) stable; urgency=medium
 
   * Maintenance release
