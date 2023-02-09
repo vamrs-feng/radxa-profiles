@@ -59,6 +59,7 @@ jobs:
             echo "distro=$(dpkg-parsechangelog -S Distribution)" >> $GITHUB_ENV
           fi
           echo "$version" > VERSION
+          sed "s/VERSION/$(dpkg-parsechangelog -S Version)/g" pkg.conf.template > pkg.conf
       - name: Release
         if: env.distro != 'UNRELEASED'
         uses: softprops/action-gh-release@v1
@@ -68,7 +69,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_commitish: main
           draft: false
-          fail_on_unmatched_files: false
+          fail_on_unmatched_files: true
           files: |
             *.deb
             pkg.conf
