@@ -19,15 +19,30 @@ Description: Metapackages for Rockchip Chromium port
  This package provides Rockchip Chromium port and
  several important dependencies.
 
+Package: rockchip-pulseaudio-config
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Rockchip specific PulseAudio config
+ This package provides Rockchip PulseAudio config.
+
 Package: task-rockchip-sound
 Architecture: all
 Priority: optional
 Depends: rockchip-alsa-config,
+         rockchip-pluseaudio-config,
          radxa-alsa-config,
          ${misc:Depends},
 Description: Metapackages for Rockchip sound config
- This package provides Rockchip ALSA config and Radxa
+ This package provides Rockchip sound config and Radxa
  specific ALSA config.
+
+Package: rockchip-udev
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Rockchip specific udev rules
+ This package provides Rockchip specific udev rules.
 
 Package: task-rockchip
 Architecture: all
@@ -67,6 +82,7 @@ Depends: gir1.2-gst-plugins-bad-1.0,
          libv4l-rkmpp,
          libv4l2rds0,
          libv4lconvert0,
+         rockchip-udev,
          task-rockchip-chromium,
          task-rockchip-sound,
          v4l-utils,
