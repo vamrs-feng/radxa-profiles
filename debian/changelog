@@ -1,3 +1,9 @@
+radxa-profiles (0.2.6) stable; urgency=medium
+
+  * Fix typo in task-rockchip-sound's dependencies
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 10 Feb 2023 11:04:51 +0800
+
 radxa-profiles (0.2.5) stable; urgency=medium
 
   * Fix missing udev file from rockchip-udev
