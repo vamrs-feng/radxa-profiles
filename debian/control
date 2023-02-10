@@ -30,7 +30,7 @@ Package: task-rockchip-sound
 Architecture: all
 Priority: optional
 Depends: rockchip-alsa-config,
-         rockchip-pluseaudio-config,
+         rockchip-pulseaudio-config,
          radxa-alsa-config,
          ${misc:Depends},
 Description: Metapackages for Rockchip sound config
