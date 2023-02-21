@@ -1,3 +1,9 @@
+radxa-profiles (0.2.7) stable; urgency=medium
+
+  * Fix sound playback on dual display devices
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 21 Feb 2023 18:55:42 +0800
+
 radxa-profiles (0.2.6) stable; urgency=medium
 
   * Fix typo in task-rockchip-sound's dependencies
