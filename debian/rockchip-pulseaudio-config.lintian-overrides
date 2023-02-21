@@ -1,0 +1,2 @@
+# default.pa is indeed interpreted by /usr/bin/pulseaudio
+rockchip-pulseaudio-config: unusual-interpreter
