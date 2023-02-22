@@ -1,3 +1,10 @@
+radxa-profiles (0.2.8) stable; urgency=medium
+
+  * Update librga2 version
+  * Use deb-triggers to update PulseAudio config
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 22 Feb 2023 11:32:50 +0800
+
 radxa-profiles (0.2.7) stable; urgency=medium
 
   * Fix sound playback on dual display devices
