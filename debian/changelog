@@ -1,6 +1,6 @@
 radxa-profiles (0.2.9) stable; urgency=medium
 
-  * Workaround compatiability issue with Buster
+  * Workaround compatibility issue with Buster
 
  -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 03 Mar 2023 11:47:10 +0800
 
