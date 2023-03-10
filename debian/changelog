@@ -1,3 +1,9 @@
+radxa-profiles (0.2.10) stable; urgency=medium
+
+  * Add radxa-xorg-wrapper
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 10 Mar 2023 17:03:02 +0800
+
 radxa-profiles (0.2.9) stable; urgency=medium
 
   * Workaround compatibility issue with Buster
