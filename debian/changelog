@@ -1,3 +1,9 @@
+radxa-profiles (0.2.12) stable; urgency=medium
+
+  * Auto reconnect Bluetooth audio devices
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 17 Mar 2023 17:47:55 +0800
+
 radxa-profiles (0.2.11) stable; urgency=medium
 
   * Add workarounds for Rockchip
