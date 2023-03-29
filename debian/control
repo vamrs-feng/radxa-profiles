@@ -133,7 +133,7 @@ Architecture: all
 Priority: optional
 Depends: task-rockchip,
          camera-engine-rkaiq,
-         rockchip-iqfiles,
+         rockchip-iqfiles-rk356x,
          libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK356x vendor packages
