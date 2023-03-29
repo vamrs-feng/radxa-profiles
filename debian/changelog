@@ -1,3 +1,9 @@
+radxa-profiles (0.2.13) stable; urgency=medium
+
+  * Update rk356x camera related packages
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 29 Mar 2023 22:00:37 +0800
+
 radxa-profiles (0.2.12) stable; urgency=medium
 
   * Auto reconnect Bluetooth audio devices
