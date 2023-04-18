@@ -110,50 +110,82 @@ Priority: optional
 Depends: ${misc:Depends},
 Description: Metapackages for common rk3308 vendor packages
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+
+Package: task-rk3328-camera
+Architecture: all
+Priority: optional
+Depends: rkisp-engine,
+         rockchip-iqfiles,
+         ${misc:Depends},
+Description: Metapackages for RK3328 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK3328 camera support.
 
 Package: task-rk3328
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
-         rkisp-engine,
-         rockchip-iqfiles,
+         task-rk3328-camera,
          libmali-utgard-450-r7p0-x11 | libmali-utgard-450-r7p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK3328 vendor packages
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+
+Package: task-rk3399-camera
+Architecture: all
+Priority: optional
+Depends: rkisp-engine,
+         rockchip-iqfiles,
+         ${misc:Depends},
+Description: Metapackages for RK3399 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK3399 camera support.
 
 Package: task-rk3399
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
-         rkisp-engine,
-         rockchip-iqfiles,
+         task-rk3399-camera,
          libmali-midgard-t86x-r18p0-x11 | libmali-midgard-t86x-r18p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK3399 vendor packages
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+
+Package: task-rk356x-camera
+Architecture: all
+Priority: optional
+Depends: camera-engine-rkaiq,
+         rockchip-iqfiles-rk356x,
+         ${misc:Depends},
+Description: Metapackages for RK356X camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK356X camera support.
 
 Package: task-rk356x
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
-         camera-engine-rkaiq,
-         rockchip-iqfiles-rk356x,
+         task-rk356x-camera,
          libmali-bifrost-g52-g2p0-x11 | libmali-bifrost-g52-g2p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK356x vendor packages
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+
+Package: task-rk3588-camera
+Architecture: all
+Priority: optional
+Depends: camera-engine-rkaiq,
+         rockchip-iqfiles,
+         ${misc:Depends},
+Description: Metapackages for RK3588 camera packages
+ This package provides prebuilt packages from Rockchip that
+ provides a RK3588 camera support.
 
 Package: task-rk3588
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
-         camera-engine-rkaiq,
-         rockchip-iqfiles,
+         task-rk3588-camera
          libmali-valhall-g610-g6p0-x11 | libmali-valhall-g610-g6p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK3588 vendor packages
