@@ -8,6 +8,20 @@ Build-Depends: debhelper (>=12~),
                lintian,
                pandoc,
 
+Package: rockchip-pulseaudio-config
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Rockchip specific PulseAudio config
+ This package provides Rockchip PulseAudio config.
+
+Package: rockchip-udev
+Architecture: all
+Priority: optional
+Depends: ${misc:Depends},
+Description: Rockchip specific udev rules
+ This package provides Rockchip specific udev rules.
+
 Package: task-rockchip-chromium
 Architecture: all
 Priority: optional
@@ -18,13 +32,6 @@ Depends: chromium-x11,
 Description: Metapackages for Rockchip Chromium port
  This package provides Rockchip Chromium port and
  several important dependencies.
-
-Package: rockchip-pulseaudio-config
-Architecture: all
-Priority: optional
-Depends: ${misc:Depends},
-Description: Rockchip specific PulseAudio config
- This package provides Rockchip PulseAudio config.
 
 Package: task-rockchip-sound
 Architecture: all
