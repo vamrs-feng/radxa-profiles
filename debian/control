@@ -76,29 +76,45 @@ Recommends: gstreamer1.0-plugins-bad-apps,
 Description: Metapackages for Rockchip GStreamer
  This package provides Rockchip GStreamer.
 
-Package: task-rockchip
+Package: task-rockchip-v4l
 Architecture: all
 Priority: optional
-Depends: libdrm-cursor,
-         libdvbv5-0,
-         libkms1,
-         librga2,
-         librockchip-mpp1,
-         librockchip-vpu0,
+Depends: ibdvbv5-0,
          libv4l-0,
          libv4l-rkmpp,
          libv4l2rds0,
          libv4lconvert0,
-         rockchip-udev,
-         task-rockchip-chromium,
-         task-rockchip-gstreamer,
-         task-rockchip-sound,
          v4l-utils,
-         xserver-xorg-core,
+         ${misc:Depends},
+Description: Metapackages for Rockchip Video4Linux
+ This package provides Rockchip Video4Linux.
+
+Package: task-rockchip-xorg
+Architecture: all
+Priority: optional
+Depends: xserver-xorg-core,
          xserver-xorg-legacy,
          radxa-xorg-wrapper,
          radxa-touchscreen-utils,
          radxa-sddm-theme,
+         ${misc:Depends},
+Description: Metapackages for Rockchip X.Org
+ This package provides Rockchip X.Org.
+
+Package: task-rockchip
+Architecture: all
+Priority: optional
+Depends: libdrm-cursor,
+         libkms1,
+         librga2,
+         librockchip-mpp1,
+         librockchip-vpu0,
+         rockchip-udev,
+         task-rockchip-chromium,
+         task-rockchip-gstreamer,
+         task-rockchip-sound,
+         task-rockchip-v4l,
+         task-rockchip-xorg,
          ${misc:Depends},
 Description: Metapackages for common Rockchip vendor packages
  This package provides prebuilt packages from Rockchip that
