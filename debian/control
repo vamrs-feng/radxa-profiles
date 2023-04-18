@@ -44,14 +44,7 @@ Description: Metapackages for Rockchip sound config
  This package provides Rockchip sound config and Radxa
  specific ALSA config.
 
-Package: rockchip-udev
-Architecture: all
-Priority: optional
-Depends: ${misc:Depends},
-Description: Rockchip specific udev rules
- This package provides Rockchip specific udev rules.
-
-Package: task-rockchip
+Package: task-rockchip-gstreamer
 Architecture: all
 Priority: optional
 Depends: gir1.2-gst-plugins-bad-1.0,
@@ -72,13 +65,22 @@ Depends: gir1.2-gst-plugins-bad-1.0,
          gstreamer1.0-rockchip1,
          gstreamer1.0-tools,
          gstreamer1.0-x,
-         libdrm-cursor,
-         libdvbv5-0,
          libgstreamer-gl1.0-0,
          libgstreamer-opencv1.0-0,
          libgstreamer-plugins-bad1.0-0,
          libgstreamer-plugins-base1.0-0,
          libgstreamer1.0-0,
+         ${misc:Depends},
+Recommends: gstreamer1.0-plugins-bad-apps,
+            gstreamer1.0-wpe,
+Description: Metapackages for Rockchip GStreamer
+ This package provides Rockchip GStreamer.
+
+Package: task-rockchip
+Architecture: all
+Priority: optional
+Depends: libdrm-cursor,
+         libdvbv5-0,
          libkms1,
          librga2,
          librockchip-mpp1,
@@ -89,6 +91,7 @@ Depends: gir1.2-gst-plugins-bad-1.0,
          libv4lconvert0,
          rockchip-udev,
          task-rockchip-chromium,
+         task-rockchip-gstreamer,
          task-rockchip-sound,
          v4l-utils,
          xserver-xorg-core,
@@ -97,8 +100,6 @@ Depends: gir1.2-gst-plugins-bad-1.0,
          radxa-touchscreen-utils,
          radxa-sddm-theme,
          ${misc:Depends},
-Recommends: gstreamer1.0-plugins-bad-apps,
-            gstreamer1.0-wpe,
 Description: Metapackages for common Rockchip vendor packages
  This package provides prebuilt packages from Rockchip that
  provide a more optimized user experience.
