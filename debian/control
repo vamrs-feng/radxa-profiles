@@ -205,7 +205,7 @@ Package: task-rk3588
 Architecture: all
 Priority: optional
 Depends: task-rockchip,
-         task-rk3588-camera
+         task-rk3588-camera,
          libmali-valhall-g610-g6p0-x11 | libmali-valhall-g610-g6p0-x11-gbm,
          ${misc:Depends},
 Description: Metapackages for common RK3588 vendor packages
