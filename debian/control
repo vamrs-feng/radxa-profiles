@@ -102,7 +102,7 @@ Depends: libdrm-cursor,
          ${misc:Depends},
 Description: Metapackages for common Rockchip vendor packages
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rk3308
 Architecture: all
@@ -110,6 +110,7 @@ Priority: optional
 Depends: ${misc:Depends},
 Description: Metapackages for common rk3308 vendor packages
  This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
 
 Package: task-rk3328-camera
 Architecture: all
@@ -130,6 +131,7 @@ Depends: task-rockchip,
          ${misc:Depends},
 Description: Metapackages for common RK3328 vendor packages
  This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
 
 Package: task-rk3399-camera
 Architecture: all
@@ -150,6 +152,7 @@ Depends: task-rockchip,
          ${misc:Depends},
 Description: Metapackages for common RK3399 vendor packages
  This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
 
 Package: task-rk356x-camera
 Architecture: all
@@ -170,6 +173,7 @@ Depends: task-rockchip,
          ${misc:Depends},
 Description: Metapackages for common RK356x vendor packages
  This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
 
 Package: task-rk3588-camera
 Architecture: all
@@ -190,7 +194,7 @@ Depends: task-rockchip,
          ${misc:Depends},
 Description: Metapackages for common RK3588 vendor packages
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-amlogic
 Architecture: all
@@ -198,7 +202,7 @@ Priority: optional
 Depends: ${misc:Depends},
 Description: Metapackages for common Amlogic vendor packages
  This package provides prebuilt packages from Amlogic that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-cm3-io
 Architecture: all
@@ -207,7 +211,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for Radxa CM3 IO Baseboard
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-cm3-rpi-cm4-io
 Architecture: all
@@ -216,7 +220,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-cm3-sodimm-io
 Architecture: all
@@ -225,7 +229,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-e23
 Architecture: all
@@ -234,7 +238,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for Radxa E23
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-e25
 Architecture: all
@@ -243,7 +247,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for Radxa E25
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-nx5-io
 Architecture: all
@@ -252,7 +256,7 @@ Depends: task-rk3588,
          ${misc:Depends},
 Description: Metapackages for Radxa NX5 IO Baseboard
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-zero
 Architecture: all
@@ -261,7 +265,7 @@ Depends: task-amlogic,
          ${misc:Depends},
 Description: Metapackages for Radxa ZERO
  This package provides prebuilt packages from Amlogic that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-radxa-zero2
 Architecture: all
@@ -270,7 +274,7 @@ Depends: task-amlogic,
          ${misc:Depends},
 Description: Metapackages for Radxa ZERO 2
  This package provides prebuilt packages from Amlogic that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-3a
 Architecture: all
@@ -279,7 +283,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for ROCK 3A
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-3b
 Architecture: all
@@ -288,7 +292,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for ROCK 3B
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-3c
 Architecture: all
@@ -297,7 +301,7 @@ Depends: task-rk356x,
          ${misc:Depends},
 Description: Metapackages for ROCK 3C
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-4a-plus
 Architecture: all
@@ -306,7 +310,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi 4A+
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-4b-plus
 Architecture: all
@@ -315,7 +319,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi 4B+
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-4c-plus
 Architecture: all
@@ -324,7 +328,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK 4C+
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-4se
 Architecture: all
@@ -333,7 +337,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK 4SE
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-4-core-io
 Architecture: all
@@ -342,7 +346,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK 4 Core Baseboard
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-5a
 Architecture: all
@@ -351,7 +355,7 @@ Depends: task-rk3588,
          ${misc:Depends},
 Description: Metapackages for ROCK 5A
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-5b
 Architecture: all
@@ -360,7 +364,7 @@ Depends: task-rk3588,
          ${misc:Depends},
 Description: Metapackages for ROCK 5B
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-4a
 Architecture: all
@@ -369,7 +373,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi 4A
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-4b
 Architecture: all
@@ -378,7 +382,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi 4B
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-4c
 Architecture: all
@@ -387,7 +391,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi 4C
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-e
 Architecture: all
@@ -396,7 +400,7 @@ Depends: task-rk3328,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi E
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-n10
 Architecture: all
@@ -405,7 +409,7 @@ Depends: task-rk3399,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi N10
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
 
 Package: task-rock-pi-s
 Architecture: all
@@ -414,4 +418,4 @@ Depends: task-rk3308,
          ${misc:Depends},
 Description: Metapackages for ROCK Pi S
  This package provides prebuilt packages from Rockchip that
- provide a more optimized user experience.
+ provides a more optimized user experience.
