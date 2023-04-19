@@ -81,8 +81,8 @@ Depends: gstreamer1.0-rockchip1,
          librockchip-mpp1,
          librockchip-vpu0,
          ${misc:Depends},
-Description: Metapackages for Rockchip DRM
- This package provides Rockchip DRM.
+Description: Metapackages for Rockchip MPP
+ This package provides Rockchip MPP.
 
 Package: task-rockchip-sound
 Architecture: all
@@ -98,7 +98,7 @@ Description: Metapackages for Rockchip sound config
 Package: task-rockchip-v4l
 Architecture: all
 Priority: optional
-Depends: ibdvbv5-0,
+Depends: libdvbv5-0,
          libv4l-0,
          libv4l-rkmpp,
          libv4l2rds0,
