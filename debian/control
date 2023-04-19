@@ -33,16 +33,14 @@ Description: Metapackages for Rockchip Chromium port
  This package provides Rockchip Chromium port and
  several important dependencies.
 
-Package: task-rockchip-sound
+Package: task-rockchip-drm
 Architecture: all
 Priority: optional
-Depends: rockchip-alsa-config,
-         rockchip-pulseaudio-config,
-         radxa-alsa-config,
+Depends: libdrm-cursor,
+         libkms1,
          ${misc:Depends},
-Description: Metapackages for Rockchip sound config
- This package provides Rockchip sound config and Radxa
- specific ALSA config.
+Description: Metapackages for Rockchip DRM
+ This package provides Rockchip DRM.
 
 Package: task-rockchip-gstreamer
 Architecture: all
@@ -75,6 +73,28 @@ Recommends: gstreamer1.0-plugins-bad-apps,
 Description: Metapackages for Rockchip GStreamer
  This package provides Rockchip GStreamer.
 
+Package: task-rockchip-mpp
+Architecture: all
+Priority: optional
+Depends: gstreamer1.0-rockchip1,
+         librga2,
+         librockchip-mpp1,
+         librockchip-vpu0,
+         ${misc:Depends},
+Description: Metapackages for Rockchip DRM
+ This package provides Rockchip DRM.
+
+Package: task-rockchip-sound
+Architecture: all
+Priority: optional
+Depends: rockchip-alsa-config,
+         rockchip-pulseaudio-config,
+         radxa-alsa-config,
+         ${misc:Depends},
+Description: Metapackages for Rockchip sound config
+ This package provides Rockchip sound config and Radxa
+ specific ALSA config.
+
 Package: task-rockchip-v4l
 Architecture: all
 Priority: optional
@@ -87,26 +107,6 @@ Depends: ibdvbv5-0,
          ${misc:Depends},
 Description: Metapackages for Rockchip Video4Linux
  This package provides Rockchip Video4Linux.
-
-Package: task-rockchip-drm
-Architecture: all
-Priority: optional
-Depends: libdrm-cursor,
-         libkms1,
-         ${misc:Depends},
-Description: Metapackages for Rockchip DRM
- This package provides Rockchip DRM.
-
-Package: task-rockchip-mpp
-Architecture: all
-Priority: optional
-Depends: gstreamer1.0-rockchip1,
-         librga2,
-         librockchip-mpp1,
-         librockchip-vpu0,
-         ${misc:Depends},
-Description: Metapackages for Rockchip DRM
- This package provides Rockchip DRM.
 
 Package: task-rockchip-xorg
 Architecture: all
