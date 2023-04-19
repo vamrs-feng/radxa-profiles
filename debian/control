@@ -62,7 +62,6 @@ Depends: gir1.2-gst-plugins-bad-1.0,
          gstreamer1.0-plugins-ugly,
          gstreamer1.0-pulseaudio,
          gstreamer1.0-qt5,
-         gstreamer1.0-rockchip1,
          gstreamer1.0-tools,
          gstreamer1.0-x,
          libgstreamer-gl1.0-0,
@@ -89,6 +88,26 @@ Depends: ibdvbv5-0,
 Description: Metapackages for Rockchip Video4Linux
  This package provides Rockchip Video4Linux.
 
+Package: task-rockchip-drm
+Architecture: all
+Priority: optional
+Depends: libdrm-cursor,
+         libkms1,
+         ${misc:Depends},
+Description: Metapackages for Rockchip DRM
+ This package provides Rockchip DRM.
+
+Package: task-rockchip-mpp
+Architecture: all
+Priority: optional
+Depends: gstreamer1.0-rockchip1,
+         librga2,
+         librockchip-mpp1,
+         librockchip-vpu0,
+         ${misc:Depends},
+Description: Metapackages for Rockchip DRM
+ This package provides Rockchip DRM.
+
 Package: task-rockchip-xorg
 Architecture: all
 Priority: optional
@@ -104,14 +123,11 @@ Description: Metapackages for Rockchip X.Org
 Package: task-rockchip
 Architecture: all
 Priority: optional
-Depends: libdrm-cursor,
-         libkms1,
-         librga2,
-         librockchip-mpp1,
-         librockchip-vpu0,
-         rockchip-udev,
+Depends: rockchip-udev,
          task-rockchip-chromium,
+         task-rockchip-drm,
          task-rockchip-gstreamer,
+         task-rockchip-mpp,
          task-rockchip-sound,
          task-rockchip-v4l,
          task-rockchip-xorg,
