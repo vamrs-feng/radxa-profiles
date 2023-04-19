@@ -1,3 +1,9 @@
+radxa-profiles (0.2.14) stable; urgency=medium
+
+  * Create individual packages for Rockchip features
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 19 Apr 2023 16:55:55 +0800
+
 radxa-profiles (0.2.13) stable; urgency=medium
 
   * Update rk356x camera related packages
