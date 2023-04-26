@@ -7,11 +7,6 @@ case "$action" in
 	configure|triggered)
 		# Fix no sound issue
 		sed -Ei "s/^\s*(load-module)\s+(module-udev-detect)\s*$/\1 \2 tsched=0/g" "/etc/pulse/default.pa"
-		# Fix no Bluetooth auto reconnect issue
-		if ! grep module-switch-on-connect "/etc/pulse/default.pa" >/dev/null 2>&1
-		then
-			sudo sed -Ei "s/(^\s*load-module\s+module-switch-on-port-available\s*$)/\1\nload-module module-switch-on-connect/g" "/etc/pulse/default.pa"
-		fi
 		;;
 esac
 
