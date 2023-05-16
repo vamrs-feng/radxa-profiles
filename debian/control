@@ -281,6 +281,15 @@ Description: Metapackages for Radxa E25
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-radxa-e61
+Architecture: all
+Priority: optional
+Depends: task-rk356x,
+         ${misc:Depends},
+Description: Metapackages for Radxa E61
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-radxa-nx5-io
 Architecture: all
 Priority: optional
