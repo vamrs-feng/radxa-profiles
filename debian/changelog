@@ -1,3 +1,10 @@
+radxa-profiles (0.2.16) stable; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add task-radxa-e61 package
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 16 May 2023 14:17:50 +0800
+
 radxa-profiles (0.2.15) stable; urgency=medium
 
   [ Feng Zhang ]
