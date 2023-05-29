@@ -263,6 +263,15 @@ Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-radxa-cm5-io
+Architecture: all
+Priority: optional
+Depends: task-rk3588,
+         ${misc:Depends},
+Description: Metapackages for Radxa CM5 IO Baseboard
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-radxa-e23
 Architecture: all
 Priority: optional
