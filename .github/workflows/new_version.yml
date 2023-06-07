@@ -14,6 +14,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          token: ${{secrets.GIT_PUSH_TOKEN}}
       - name: Create release commit
         run: |
           sudo apt-get update
