@@ -1,3 +1,19 @@
+radxa-profiles (0.2.18) jammy; urgency=medium
+
+  [ Alvin Xie ]
+  * Add task-rock-3-zero-w package
+
+  [ ZHANG Yuntian ]
+  * Add new version workflow
+  * Install dependencies
+  * Add email and name for gbp dch
+  * Update gbp dch arguments
+  * Update gbp dch command
+  * Fix ubuntu1 suffix
+  * Use PAT to workaround branch protection
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 07 Jun 2023 12:26:03 +0000
+
 radxa-profiles (0.2.17) stable; urgency=medium
 
   [ ZHANG Yuntian ]
