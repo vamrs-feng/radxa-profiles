@@ -16,6 +16,8 @@ jobs:
           fetch-depth: 0
       - name: Create release commit
         run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y git-buildpackage
           make dch
           sed -i "s/UNRELEASED/stable/" debian/changelog
           git config user.name "github-actions[bot]"
@@ -24,7 +26,8 @@ jobs:
           git commit -m "Release $(dpkg-parsechangelog -S Version)"
       - name: Test
         run: |
-          make test
+          sudo apt-get build-dep --no-install-recommends -y .
+          make all test deb
       - name: Push
         run: |
           git push
