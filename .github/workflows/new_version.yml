@@ -20,12 +20,9 @@ jobs:
           sudo apt-get install --no-install-recommends -y git-buildpackage
           export DEBEMAIL="dev@radxa.com"
           export DEBFULLNAME='"Radxa Computer Co., Ltd"'
-          make dch
-          sed -i "s/UNRELEASED/stable/" debian/changelog
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add debian/changelog
-          git commit -m "Release $(dpkg-parsechangelog -S Version)"
+          make dch
       - name: Test
         run: |
           sudo apt-get build-dep --no-install-recommends -y .

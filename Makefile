@@ -67,7 +67,7 @@ clean-deb:
 #
 .PHONY: dch
 dch: debian/changelog
-	gbp dch --debian-branch=main
+	gbp dch --distribution=stable --local= --debian-branch=main --commit
 
 .PHONY: deb
 deb: debian
