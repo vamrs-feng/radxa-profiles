@@ -263,7 +263,7 @@ Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
-Package: task-rock-3-zero-w
+Package: task-radxa-zero-3w
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
