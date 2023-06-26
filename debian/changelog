@@ -1,3 +1,13 @@
+radxa-profiles (0.2.19) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add bookworm support
+
+  [ Radxa-Alvin ]
+  * Modify board name radxa zero 3w
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 26 Jun 2023 02:47:23 +0000
+
 radxa-profiles (0.2.18) jammy; urgency=medium
 
   [ Alvin Xie ]
