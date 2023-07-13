@@ -1,3 +1,11 @@
+radxa-profiles (0.2.22) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Add some Rockchip KDE configs
+  * Add NetworkManager configs
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 13 Jul 2023 03:36:59 +0000
+
 radxa-profiles (0.2.21) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
