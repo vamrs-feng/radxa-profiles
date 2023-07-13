@@ -1,0 +1,16 @@
+#!/bin/sh
+set -e
+
+case $1 in
+    install|upgrade)
+        conflicts="kdeglobals"
+        for i in $conflicts
+        do
+            dpkg-divert --package task-rockchip --divert "/usr/share/desktop-base/kf5-settings/$i.bak" --rename "/usr/share/desktop-base/kf5-settings/$i"
+        done
+        ;;
+esac
+    
+#DEBHELPER#
+
+exit 0
