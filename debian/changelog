@@ -1,3 +1,12 @@
+radxa-profiles (0.2.21) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Update CI runner image
+  * Fix build
+  * Update Amlogic system config
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 13 Jul 2023 03:14:48 +0000
+
 radxa-profiles (0.2.20) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
