@@ -1,0 +1,21 @@
+#!/bin/sh
+set -e
+
+case $1 in
+    install|upgrade)
+        if [ "$1" = "install" ]
+        then
+            deb-systemd-helper mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+        fi
+
+        conflicts="kdeglobals"
+        for i in $conflicts
+        do
+            dpkg-divert --package task-amlogic --divert "/usr/share/desktop-base/kf5-settings/$i.bak" --rename "/usr/share/desktop-base/kf5-settings/$i"
+        done
+        ;;
+esac
+    
+#DEBHELPER#
+
+exit 0
