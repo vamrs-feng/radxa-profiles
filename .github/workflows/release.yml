@@ -78,7 +78,6 @@ jobs:
           fail_on_unmatched_files: true
           files: |
             *.deb
-            pkg.conf
             VERSION
       - name: Append changelog
         if: env.distro != 'UNRELEASED'
