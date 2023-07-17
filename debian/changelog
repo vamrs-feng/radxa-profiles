@@ -1,3 +1,9 @@
+radxa-profiles (0.3.0) stable; urgency=medium
+
+  * Split into multiple packages
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 13 Jul 2023 12:00:59 +0800
+
 radxa-profiles (0.2.22) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
