@@ -1,3 +1,10 @@
+radxa-profiles (0.3.2) jammy; urgency=medium
+
+  [ Alvin Xie ]
+  * modify the package name of radxa zero3
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 21 Sep 2023 03:51:38 +0000
+
 radxa-profiles (0.3.1) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
