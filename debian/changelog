@@ -1,3 +1,15 @@
+radxa-profiles (0.3.1) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Fix CI
+
+  [ dependabot[bot] ]
+  * Bump actions/checkout from 3 to 4
+  * Add task-radxa-cm5-rpi-cm4-io
+  * Remove unnecessary gitignore item
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 21 Sep 2023 02:42:24 +0000
+
 radxa-profiles (0.3.0) stable; urgency=medium
 
   * Split into multiple packages
