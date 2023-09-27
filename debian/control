@@ -107,12 +107,13 @@ Description: Metapackages for Radxa ZERO
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
 
-Package: task-radxa-zero2
+Package: task-radxa-zero-2pro
 Architecture: all
 Priority: optional
 Depends: task-amlogic,
+         rsetup-config-thermal-governor-step-wise,
          ${misc:Depends},
-Description: Metapackages for Radxa ZERO 2
+Description: Metapackages for Radxa ZERO 2 PRO
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
 
