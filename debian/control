@@ -12,6 +12,7 @@ Package: task-radxa-cm3-io
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         r8125-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa CM3 IO Baseboard
  This package provides prebuilt packages from Rockchip that
@@ -21,6 +22,7 @@ Package: task-radxa-cm3-rpi-cm4-io
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         r8125-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
  This package provides prebuilt packages from Rockchip that
@@ -30,6 +32,7 @@ Package: task-radxa-cm3-sodimm-io
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         r8125-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
  This package provides prebuilt packages from Rockchip that
@@ -48,6 +51,9 @@ Package: task-radxa-cm5-io
 Architecture: all
 Priority: optional
 Depends: task-rk3588,
+         8852be-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa CM5 IO Baseboard
  This package provides prebuilt packages from Rockchip that
@@ -66,6 +72,7 @@ Package: task-radxa-e23
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         r8125-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa E23
  This package provides prebuilt packages from Rockchip that
@@ -75,6 +82,7 @@ Package: task-radxa-e25
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         r8125-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa E25
  This package provides prebuilt packages from Rockchip that
@@ -84,6 +92,9 @@ Package: task-radxa-e61
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         8852be-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa E61
  This package provides prebuilt packages from Rockchip that
@@ -93,6 +104,10 @@ Package: task-radxa-nx5-io
 Architecture: all
 Priority: optional
 Depends: task-rk3588,
+         r8125-dkms,
+         8852be-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
          ${misc:Depends},
 Description: Metapackages for Radxa NX5 IO Baseboard
  This package provides prebuilt packages from Rockchip that
@@ -121,6 +136,9 @@ Package: task-rock-3a
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         8852be-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
          ${misc:Depends},
 Description: Metapackages for ROCK 3A
  This package provides prebuilt packages from Rockchip that
@@ -130,6 +148,9 @@ Package: task-rock-3b
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
+         8852be-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
          ${misc:Depends},
 Description: Metapackages for ROCK 3B
  This package provides prebuilt packages from Rockchip that
@@ -193,6 +214,10 @@ Package: task-rock-5a
 Architecture: all
 Priority: optional
 Depends: task-rk3588,
+         r8125-dkms,
+         8852be-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
          ${misc:Depends},
 Description: Metapackages for ROCK 5A
  This package provides prebuilt packages from Rockchip that
@@ -202,6 +227,10 @@ Package: task-rock-5b
 Architecture: all
 Priority: optional
 Depends: task-rk3588,
+         r8125-dkms,
+         8852be-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
          ${misc:Depends},
 Description: Metapackages for ROCK 5B
  This package provides prebuilt packages from Rockchip that
@@ -238,6 +267,7 @@ Package: task-rock-pi-e
 Architecture: all
 Priority: optional
 Depends: task-rk3328,
+         8821cu-dkms
          ${misc:Depends},
 Description: Metapackages for ROCK Pi E
  This package provides prebuilt packages from Rockchip that
@@ -256,6 +286,7 @@ Package: task-rock-pi-s
 Architecture: all
 Priority: optional
 Depends: task-rk3308,
+         rtw88-dkms
          ${misc:Depends},
 Description: Metapackages for ROCK Pi S
  This package provides prebuilt packages from Rockchip that
