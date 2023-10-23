@@ -96,7 +96,7 @@ Depends: task-rk356x,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
-Description: Metapackages for Radxa CM3 Industrial IO Baseboard
+Description: Metapackages for Radxa CM3I Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
