@@ -88,7 +88,7 @@ Description: Metapackages for Radxa E25
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
-Package: task-radxa-e61
+Package: task-radxa-cm3i-io
 Architecture: all
 Priority: optional
 Depends: task-rk356x,
@@ -96,7 +96,7 @@ Depends: task-rk356x,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
-Description: Metapackages for Radxa E61
+Description: Metapackages for Radxa CM3I Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
