@@ -51,7 +51,7 @@ Package: task-radxa-cm5-io
 Architecture: all
 Priority: optional
 Depends: task-rk3588,
-         8852be-dkms,
+         rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
@@ -105,7 +105,7 @@ Architecture: all
 Priority: optional
 Depends: task-rk3588,
          r8125-dkms,
-         8852be-dkms,
+         rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
@@ -215,7 +215,7 @@ Architecture: all
 Priority: optional
 Depends: task-rk3588,
          r8125-dkms,
-         8852be-dkms,
+         rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
@@ -228,7 +228,7 @@ Architecture: all
 Priority: optional
 Depends: task-rk3588,
          r8125-dkms,
-         8852be-dkms,
+         rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
