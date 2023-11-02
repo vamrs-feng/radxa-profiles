@@ -299,7 +299,7 @@ Package: task-rock-pi-s
 Architecture: all
 Priority: optional
 Depends: task-rk3308,
-         rtw88-dkms
+         rtl8723ds-dkms
          ${misc:Depends},
 Description: Metapackages for ROCK Pi S
  This package provides prebuilt packages from Rockchip that
