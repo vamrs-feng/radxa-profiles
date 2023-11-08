@@ -1,3 +1,16 @@
+radxa-profiles (0.3.6) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Use rtw89 driver on RK3588 products
+
+  [ Chuang Ma ]
+  * Add the task-rock-5b-plus package
+
+  [ ZHANG Yuntian ]
+  * Change ROCK Pi S Wi-Fi driver back to rtl8723ds
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 08 Nov 2023 09:17:52 +0000
+
 radxa-profiles (0.3.5) jammy; urgency=medium
 
   [ Alvin Xie ]
