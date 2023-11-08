@@ -236,6 +236,19 @@ Description: Metapackages for ROCK 5B
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-rock-5b-plus
+Architecture: all
+Priority: optional
+Depends: task-rk3588,
+         r8125-dkms,
+         rtw89-dkms,
+         8852bu-dkms,
+         rtk-btusb-dkms,
+         ${misc:Depends},
+Description: Metapackages for ROCK 5B+
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-rock-pi-4a
 Architecture: all
 Priority: optional
