@@ -11,9 +11,10 @@ Build-Depends: debhelper (>=12~),
 Package: task-radxa-cm3-io
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          r8125-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3 IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -21,9 +22,10 @@ Description: Metapackages for Radxa CM3 IO Baseboard
 Package: task-radxa-cm3-rpi-cm4-io
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          r8125-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -31,9 +33,10 @@ Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
 Package: task-radxa-cm3-sodimm-io
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          r8125-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -41,8 +44,9 @@ Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
 Package: task-radxa-zero3
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for Radxa ZERO 3
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -50,11 +54,12 @@ Description: Metapackages for Radxa ZERO 3
 Package: task-radxa-cm5-io
 Architecture: all
 Priority: optional
-Depends: task-rk3588,
+Depends: radxa-system-config,
          rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk3588,
 Description: Metapackages for Radxa CM5 IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -62,8 +67,9 @@ Description: Metapackages for Radxa CM5 IO Baseboard
 Package: task-radxa-cm5-rpi-cm4-io
 Architecture: all
 Priority: optional
-Depends: task-rk3588,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3588,
 Description: Metapackages for Radxa CM5 on RPI CM4 IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -71,9 +77,10 @@ Description: Metapackages for Radxa CM5 on RPI CM4 IO Baseboard
 Package: task-radxa-e23
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          r8125-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for Radxa E23
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -81,9 +88,10 @@ Description: Metapackages for Radxa E23
 Package: task-radxa-e25
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          r8125-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for Radxa E25
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -91,11 +99,12 @@ Description: Metapackages for Radxa E25
 Package: task-radxa-cm3i-io
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          8852be-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3I Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -103,12 +112,13 @@ Description: Metapackages for Radxa CM3I Baseboard
 Package: task-radxa-nx5-io
 Architecture: all
 Priority: optional
-Depends: task-rk3588,
+Depends: radxa-system-config,
          r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk3588,
 Description: Metapackages for Radxa NX5 IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -116,8 +126,9 @@ Description: Metapackages for Radxa NX5 IO Baseboard
 Package: task-radxa-zero
 Architecture: all
 Priority: optional
-Depends: task-amlogic,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-amlogic,
 Description: Metapackages for Radxa ZERO
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
@@ -125,9 +136,10 @@ Description: Metapackages for Radxa ZERO
 Package: task-radxa-zero-2pro
 Architecture: all
 Priority: optional
-Depends: task-amlogic,
+Depends: radxa-system-config,
          rsetup-config-thermal-governor-step-wise,
          ${misc:Depends},
+Recommends: task-amlogic,
 Description: Metapackages for Radxa ZERO 2 PRO
  This package provides prebuilt packages from Amlogic that
  provides a more optimized user experience.
@@ -135,11 +147,12 @@ Description: Metapackages for Radxa ZERO 2 PRO
 Package: task-rock-3a
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          8852be-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for ROCK 3A
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -147,11 +160,12 @@ Description: Metapackages for ROCK 3A
 Package: task-rock-3b
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          8852be-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for ROCK 3B
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -159,8 +173,9 @@ Description: Metapackages for ROCK 3B
 Package: task-rock-3c
 Architecture: all
 Priority: optional
-Depends: task-rk356x,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk356x,
 Description: Metapackages for ROCK 3C
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -168,8 +183,9 @@ Description: Metapackages for ROCK 3C
 Package: task-rock-pi-4a-plus
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4A+
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -177,8 +193,9 @@ Description: Metapackages for ROCK Pi 4A+
 Package: task-rock-pi-4b-plus
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4B+
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -186,8 +203,9 @@ Description: Metapackages for ROCK Pi 4B+
 Package: task-rock-4c-plus
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK 4C+
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -195,8 +213,9 @@ Description: Metapackages for ROCK 4C+
 Package: task-rock-4se
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK 4SE
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -204,8 +223,9 @@ Description: Metapackages for ROCK 4SE
 Package: task-rock-4-core-io
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK 4 Core Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -213,12 +233,13 @@ Description: Metapackages for ROCK 4 Core Baseboard
 Package: task-rock-5a
 Architecture: all
 Priority: optional
-Depends: task-rk3588,
+Depends: radxa-system-config,
          r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk3588,
 Description: Metapackages for ROCK 5A
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -226,12 +247,13 @@ Description: Metapackages for ROCK 5A
 Package: task-rock-5b
 Architecture: all
 Priority: optional
-Depends: task-rk3588,
+Depends: radxa-system-config,
          r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk3588,
 Description: Metapackages for ROCK 5B
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -239,12 +261,13 @@ Description: Metapackages for ROCK 5B
 Package: task-rock-5b-plus
 Architecture: all
 Priority: optional
-Depends: task-rk3588,
+Depends: radxa-system-config,
          r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
          rtk-btusb-dkms,
          ${misc:Depends},
+Recommends: task-rk3588,
 Description: Metapackages for ROCK 5B+
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -252,8 +275,9 @@ Description: Metapackages for ROCK 5B+
 Package: task-rock-pi-4a
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4A
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -261,8 +285,9 @@ Description: Metapackages for ROCK Pi 4A
 Package: task-rock-pi-4b
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4B
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -270,8 +295,9 @@ Description: Metapackages for ROCK Pi 4B
 Package: task-rock-pi-4c
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4C
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -279,9 +305,10 @@ Description: Metapackages for ROCK Pi 4C
 Package: task-rock-pi-e
 Architecture: all
 Priority: optional
-Depends: task-rk3328,
+Depends: radxa-system-config,
          8821cu-dkms
          ${misc:Depends},
+Recommends: task-rk3328,
 Description: Metapackages for ROCK Pi E
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -289,8 +316,9 @@ Description: Metapackages for ROCK Pi E
 Package: task-rock-pi-n10
 Architecture: all
 Priority: optional
-Depends: task-rk3399,
+Depends: radxa-system-config,
          ${misc:Depends},
+Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi N10
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
@@ -298,9 +326,10 @@ Description: Metapackages for ROCK Pi N10
 Package: task-rock-pi-s
 Architecture: all
 Priority: optional
-Depends: task-rk3308,
+Depends: radxa-system-config,
          rtl8723ds-dkms
          ${misc:Depends},
+Recommends: task-rk3308,
 Description: Metapackages for ROCK Pi S
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
