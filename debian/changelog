@@ -1,3 +1,12 @@
+radxa-profiles (0.4.0) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Make vendor package Recommends and expilcitly install radxa-system-config
+  * Reorder products
+  * Add radxa-system-config-kernel-cmdline
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 09 Nov 2023 16:21:55 +0800
+
 radxa-profiles (0.3.6) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
