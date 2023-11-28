@@ -1,3 +1,11 @@
+radxa-profiles (0.4.2) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Remove leftover man file
+  * Support AIC8800 on ZERO3
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 28 Nov 2023 07:46:19 +0000
+
 radxa-profiles (0.4.1) jammy; urgency=medium
 
   [ Alvin Xie ]
