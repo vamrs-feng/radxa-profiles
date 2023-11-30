@@ -43,6 +43,17 @@ Description: Metapackages for ROCK Pi S
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-rock-s0
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttys0,
+         ${misc:Depends},
+Recommends: task-rk3308,
+Description: Metapackages for ROCK S0
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-rock-pi-e
 Architecture: all
 Priority: optional
