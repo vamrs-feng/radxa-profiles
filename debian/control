@@ -198,6 +198,8 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         rsetup-config-hciattach-ttys1,
+         aic8800-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for ROCK 3C
