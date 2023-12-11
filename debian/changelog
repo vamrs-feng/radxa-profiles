@@ -1,3 +1,10 @@
+radxa-profiles (0.4.6) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Revert "Make packages essential to install cmdline early"
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 11 Dec 2023 09:26:31 +0000
+
 radxa-profiles (0.4.5) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
