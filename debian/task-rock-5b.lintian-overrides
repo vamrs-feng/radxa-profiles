@@ -1,0 +1,2 @@
+# task-rock-5b needs to be installed early for mmdebstrap
+task-rock-5b: new-essential-package

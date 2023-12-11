@@ -1,0 +1,2 @@
+# task-radxa-cm3-sodimm-io needs to be installed early for mmdebstrap
+task-radxa-cm3-sodimm-io: new-essential-package

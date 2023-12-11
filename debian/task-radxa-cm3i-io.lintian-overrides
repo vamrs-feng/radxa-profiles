@@ -1,0 +1,2 @@
+# task-radxa-cm3i-io needs to be installed early for mmdebstrap
+task-radxa-cm3i-io: new-essential-package

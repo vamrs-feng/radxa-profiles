@@ -1,0 +1,2 @@
+# task-rock-4-core-io needs to be installed early for mmdebstrap
+task-rock-4-core-io: new-essential-package

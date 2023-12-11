@@ -1,0 +1,2 @@
+# task-rock-4se needs to be installed early for mmdebstrap
+task-rock-4se: new-essential-package

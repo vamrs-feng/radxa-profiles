@@ -1,0 +1,2 @@
+# task-radxa-e25 needs to be installed early for mmdebstrap
+task-radxa-e25: new-essential-package

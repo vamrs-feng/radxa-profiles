@@ -1,0 +1,2 @@
+# task-rock-pi-4c needs to be installed early for mmdebstrap
+task-rock-pi-4c: new-essential-package
