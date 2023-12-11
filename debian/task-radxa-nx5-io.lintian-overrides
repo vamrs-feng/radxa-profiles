@@ -1,2 +1,0 @@
-# task-radxa-nx5-io needs to be installed early for mmdebstrap
-task-radxa-nx5-io: new-essential-package

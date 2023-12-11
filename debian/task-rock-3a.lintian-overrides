@@ -1,2 +1,0 @@
-# task-rock-3a needs to be installed early for mmdebstrap
-task-rock-3a: new-essential-package

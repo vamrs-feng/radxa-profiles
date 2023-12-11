@@ -1,2 +1,0 @@
-# task-radxa-zero3 needs to be installed early for mmdebstrap
-task-radxa-zero3: new-essential-package

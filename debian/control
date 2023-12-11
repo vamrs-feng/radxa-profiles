@@ -11,7 +11,6 @@ Build-Depends: debhelper (>=12~),
 Package: task-radxa-zero
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyaml0,
          ${misc:Depends},
@@ -23,7 +22,6 @@ Description: Metapackages for Radxa ZERO
 Package: task-radxa-zero-2pro
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyaml0,
          rsetup-config-thermal-governor-step-wise,
@@ -36,7 +34,6 @@ Description: Metapackages for Radxa ZERO 2 PRO
 Package: task-rock-pi-s
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttys0,
          rtl8723ds-dkms
@@ -60,7 +57,6 @@ Description: Metapackages for ROCK S0
 Package: task-rock-pi-e
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttys2,
          8821cu-dkms
@@ -73,7 +69,6 @@ Description: Metapackages for ROCK Pi E
 Package: task-rock-pi-4a
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -85,7 +80,6 @@ Description: Metapackages for ROCK Pi 4A
 Package: task-rock-pi-4b
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -97,7 +91,6 @@ Description: Metapackages for ROCK Pi 4B
 Package: task-rock-pi-4c
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -109,7 +102,6 @@ Description: Metapackages for ROCK Pi 4C
 Package: task-rock-pi-4a-plus
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -121,7 +113,6 @@ Description: Metapackages for ROCK Pi 4A+
 Package: task-rock-pi-4b-plus
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -133,7 +124,6 @@ Description: Metapackages for ROCK Pi 4B+
 Package: task-rock-4c-plus
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -145,7 +135,6 @@ Description: Metapackages for ROCK 4C+
 Package: task-rock-4se
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -157,7 +146,6 @@ Description: Metapackages for ROCK 4SE
 Package: task-rock-4-core-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -169,7 +157,6 @@ Description: Metapackages for ROCK 4 Core Baseboard
 Package: task-rock-pi-n10
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -181,7 +168,6 @@ Description: Metapackages for ROCK Pi N10
 Package: task-rock-3a
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          8852be-dkms,
@@ -196,7 +182,6 @@ Description: Metapackages for ROCK 3A
 Package: task-rock-3b
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          8852be-dkms,
@@ -211,7 +196,6 @@ Description: Metapackages for ROCK 3B
 Package: task-rock-3c
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          rsetup-config-hciattach-ttys1,
@@ -225,7 +209,6 @@ Description: Metapackages for ROCK 3C
 Package: task-radxa-zero3
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          rsetup-config-hciattach-ttys1,
@@ -239,7 +222,6 @@ Description: Metapackages for Radxa ZERO 3
 Package: task-radxa-e23
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -252,7 +234,6 @@ Description: Metapackages for Radxa E23
 Package: task-radxa-e25
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -265,7 +246,6 @@ Description: Metapackages for Radxa E25
 Package: task-radxa-cm3-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -278,7 +258,6 @@ Description: Metapackages for Radxa CM3 IO Baseboard
 Package: task-radxa-cm3-rpi-cm4-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -291,7 +270,6 @@ Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
 Package: task-radxa-cm3-sodimm-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -304,7 +282,6 @@ Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
 Package: task-radxa-cm3i-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          8852be-dkms,
@@ -319,7 +296,6 @@ Description: Metapackages for Radxa CM3I Baseboard
 Package: task-rock-5a
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -335,7 +311,6 @@ Description: Metapackages for ROCK 5A
 Package: task-rock-5b
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -351,7 +326,6 @@ Description: Metapackages for ROCK 5B
 Package: task-rock-5b-plus
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,
@@ -367,7 +341,6 @@ Description: Metapackages for ROCK 5B+
 Package: task-radxa-cm5-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          rtw89-dkms,
@@ -382,7 +355,6 @@ Description: Metapackages for Radxa CM5 IO Baseboard
 Package: task-radxa-cm5-rpi-cm4-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          ${misc:Depends},
@@ -394,7 +366,6 @@ Description: Metapackages for Radxa CM5 on RPI CM4 IO Baseboard
 Package: task-radxa-nx5-io
 Architecture: all
 Priority: optional
-Essential: yes
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          r8125-dkms,

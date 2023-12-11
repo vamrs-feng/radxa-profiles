@@ -1,2 +1,0 @@
-# task-rock-4c-plus needs to be installed early for mmdebstrap
-task-rock-4c-plus: new-essential-package

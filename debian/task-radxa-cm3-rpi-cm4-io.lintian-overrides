@@ -1,2 +1,0 @@
-# task-radxa-cm3-rpi-cm4-io needs to be installed early for mmdebstrap
-task-radxa-cm3-rpi-cm4-io: new-essential-package
