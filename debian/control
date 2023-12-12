@@ -172,7 +172,7 @@ Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          8852be-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for ROCK 3A
@@ -186,7 +186,7 @@ Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          8852be-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for ROCK 3B
@@ -224,7 +224,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa E23
@@ -236,7 +236,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa E25
@@ -248,7 +248,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3 IO Baseboard
@@ -260,7 +260,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3 on RPI CM4 IO Baseboard
@@ -272,7 +272,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3 SODIMM IO Baseboard
@@ -286,7 +286,7 @@ Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          8852be-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa CM3I Baseboard
@@ -298,10 +298,10 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk3588,
 Description: Metapackages for ROCK 5A
@@ -313,10 +313,10 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk3588,
 Description: Metapackages for ROCK 5B
@@ -328,10 +328,10 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk3588,
 Description: Metapackages for ROCK 5B+
@@ -345,7 +345,7 @@ Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          rtw89-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk3588,
 Description: Metapackages for Radxa CM5 IO Baseboard
@@ -368,10 +368,10 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         r8125-dkms,
+         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          8852bu-dkms,
-         rtk-btusb-dkms,
+         radxa-system-config-rtk-btusb-dkms,
          ${misc:Depends},
 Recommends: task-rk3588,
 Description: Metapackages for Radxa NX5 IO Baseboard
