@@ -1,3 +1,10 @@
+radxa-profiles (0.4.7) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Move custom dkms module config to radxa-system-config
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 12 Dec 2023 02:51:46 +0000
+
 radxa-profiles (0.4.6) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
