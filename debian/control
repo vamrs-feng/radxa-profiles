@@ -36,7 +36,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttys0,
-         rtl8723ds-dkms
+         rtl8723ds-dkms,
          ${misc:Depends},
 Recommends: task-rk3308,
 Description: Metapackages for ROCK Pi S
@@ -59,7 +59,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttys2,
-         8821cu-dkms
+         8821cu-dkms,
          ${misc:Depends},
 Recommends: task-rk3328,
 Description: Metapackages for ROCK Pi E
