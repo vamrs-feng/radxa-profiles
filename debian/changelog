@@ -1,3 +1,19 @@
+radxa-profiles (0.4.8) jammy; urgency=medium
+
+  [ Chuang Ma ]
+  * debian: control: update rock pi s/e depends
+
+  [ dependabot[bot] ]
+  * Bump actions/upload-artifact from 3 to 4
+
+  [ dependabot[bot] ]
+  * Bump actions/download-artifact from 3 to 4
+
+  [ Ken Wang ]
+  * add rock 5 itx support
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 18 Dec 2023 08:12:34 +0000
+
 radxa-profiles (0.4.7) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
