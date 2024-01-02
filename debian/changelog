@@ -1,3 +1,10 @@
+radxa-profiles (0.4.9) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * Update AIC8800 Bluetooth config
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 02 Jan 2024 10:26:40 +0000
+
 radxa-profiles (0.4.8) jammy; urgency=medium
 
   [ Chuang Ma ]
