@@ -237,6 +237,7 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
+         rsetup-config-rgb0-rainbow,
          ${misc:Depends},
 Recommends: task-rk356x,
 Description: Metapackages for Radxa E25
