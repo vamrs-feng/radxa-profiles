@@ -1,3 +1,10 @@
+radxa-profiles (0.4.10) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * feat: add rgb0 rainbow support for Radxa E25
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 22 Jan 2024 08:02:47 +0000
+
 radxa-profiles (0.4.9) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
