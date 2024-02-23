@@ -1,3 +1,13 @@
+radxa-profiles (0.4.11) jammy; urgency=medium
+
+  [ Feng Zhang ]
+  * add rock 5c profile
+
+  [ ZHANG Yuntian ]
+  * feat: use new aic8800 packages
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 23 Feb 2024 08:32:03 +0000
+
 radxa-profiles (0.4.10) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
