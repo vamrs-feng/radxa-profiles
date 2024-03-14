@@ -165,6 +165,17 @@ Description: Metapackages for ROCK Pi N10
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-rock-2a
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         ${misc:Depends},
+Recommends: task-rk3528,
+Description: Metapackages for ROCK 2A
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-rock-3a
 Architecture: all
 Priority: optional
