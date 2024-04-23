@@ -1,3 +1,10 @@
+radxa-profiles (0.4.14) jammy; urgency=medium
+
+  [ Feng Zhang ]
+  * debian: control: add rock 5d
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 23 Apr 2024 06:33:27 +0000
+
 radxa-profiles (0.4.13) jammy; urgency=medium
 
   [ dependabot[bot] ]
