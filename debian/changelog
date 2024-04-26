@@ -1,3 +1,10 @@
+radxa-profiles (0.4.15) jammy; urgency=medium
+
+  [ Stephen Chen ]
+  * feat: add aic8800-usb-dkms for rock-2a
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 26 Apr 2024 11:45:07 +0000
+
 radxa-profiles (0.4.14) jammy; urgency=medium
 
   [ Feng Zhang ]
