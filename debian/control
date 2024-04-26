@@ -170,6 +170,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         aic8800-usb-dkms,
          ${misc:Depends},
 Recommends: task-rk3528,
 Description: Metapackages for ROCK 2A
