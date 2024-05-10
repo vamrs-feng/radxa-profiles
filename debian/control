@@ -71,6 +71,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4A
@@ -82,6 +83,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4B
@@ -93,6 +95,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4C
@@ -104,6 +107,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4A+
@@ -115,6 +119,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK Pi 4B+
@@ -126,6 +131,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK 4C+
@@ -137,6 +143,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3399,
 Description: Metapackages for ROCK 4SE
@@ -170,6 +177,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          aic8800-usb-dkms,
          ${misc:Depends},
 Recommends: task-rk3528,
@@ -182,6 +190,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          8852be-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
@@ -210,6 +219,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          rsetup-config-aic8800-ttys1,
          radxa-system-config-aic8800-sdio-dkms,
          ${misc:Depends},
@@ -327,6 +337,7 @@ Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
+         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
@@ -356,6 +367,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          aic8800-usb-dkms,
