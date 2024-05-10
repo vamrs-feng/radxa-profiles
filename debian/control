@@ -360,6 +360,7 @@ Depends: radxa-system-config,
          rtl8852bu-dkms,
          aic8800-usb-dkms,
          radxa-system-config-rtk-btusb-dkms,
+         rsetup-config-thermal-governor-step-wise,
          ${misc:Depends},
 Recommends: task-rk3588,
 Description: Metapackages for ROCK 5C
