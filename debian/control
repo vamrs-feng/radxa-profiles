@@ -179,6 +179,8 @@ Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
          radxa-system-config-r8125-dkms,
          aic8800-usb-dkms,
+         rsetup-config-wan-led-eth0,
+         rsetup-config-lan-led-enp1s0,
          ${misc:Depends},
 Recommends: task-rk3528,
 Description: Metapackages for ROCK 2A
