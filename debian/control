@@ -318,6 +318,20 @@ Description: Metapackages for Radxa CM3I Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-radxa-cm3j-rpi-cm4-io
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         8852be-dkms,
+         rtl8852bu-dkms,
+         radxa-system-config-rtk-btusb-dkms,
+         ${misc:Depends},
+Recommends: task-rk356x,
+Description: Metapackages for Radxa CM3J on RPI CM4 IO Baseboard
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-rock-5-itx
 Architecture: all
 Priority: optional
