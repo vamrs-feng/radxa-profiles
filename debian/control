@@ -172,7 +172,7 @@ Description: Metapackages for ROCK Pi N10
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
-Package: task-rock-2a
+Package: task-rock-2
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
@@ -183,7 +183,7 @@ Depends: radxa-system-config,
          rsetup-config-lan-led-enp1s0,
          ${misc:Depends},
 Recommends: task-rk3528,
-Description: Metapackages for ROCK 2A
+Description: Metapackages for ROCK 2 series
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
