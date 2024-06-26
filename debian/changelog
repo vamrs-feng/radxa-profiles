@@ -1,3 +1,16 @@
+radxa-profiles (0.4.19) jammy; urgency=medium
+
+  [ CodeChenL ]
+  * refactor: rename task-rock-2a to task-rock-2
+  * feat: add CODEOWNERS
+
+  [ ZHANG Yuntian ]
+  * fix: set ROCK 2's kernel serial baud to 115200
+  * fix: switch wan & lan LED binding devices
+  * Revert "fix: set ROCK 2's kernel serial baud to 115200"
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 26 Jun 2024 11:01:15 +0000
+
 radxa-profiles (0.4.18) jammy; urgency=medium
 
   [ Alvin Xie ]
