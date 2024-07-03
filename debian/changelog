@@ -1,3 +1,10 @@
+radxa-profiles (0.4.20) jammy; urgency=medium
+
+  [ Stephen Chen ]
+  * add task-radxa-e52c
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 03 Jul 2024 02:45:21 +0000
+
 radxa-profiles (0.4.19) jammy; urgency=medium
 
   [ CodeChenL ]
