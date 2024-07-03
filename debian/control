@@ -450,6 +450,18 @@ Description: Metapackages for Radxa CM5 on RPI CM4 IO Baseboard
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-radxa-e52c
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
+         ${misc:Depends},
+Recommends: task-rk3588,
+Description: Metapackages for Radxa E52C
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-radxa-nx5-io
 Architecture: all
 Priority: optional
