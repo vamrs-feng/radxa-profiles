@@ -1,3 +1,22 @@
+radxa-profiles (0.4.21) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * refactor: use udev rule to configure network LEDs
+  * fix: incorrect network devices
+
+  [ Stephen Chen ]
+  * feat: radxa-e52c: add netdev LED config
+
+  [ SongJun Li ]
+  * feat: add medge-rk3528a-io
+  * fix: fix some problems of medge-rk3528a-io
+  * fix: Modify Description of medge-rk3528a-io
+
+  [ RadxaMitchell ]
+  * fix: set radxa-e25 kernel serial baud to 115200
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 06 Aug 2024 08:29:06 +0000
+
 radxa-profiles (0.4.20) jammy; urgency=medium
 
   [ Stephen Chen ]
