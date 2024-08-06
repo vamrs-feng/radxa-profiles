@@ -172,7 +172,7 @@ Description: Metapackages for ROCK Pi N10
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
-Package: task-medge-rk3528a-io
+Package: task-radxa-medge-rk3528a-io
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
@@ -180,7 +180,7 @@ Depends: radxa-system-config,
          aic8800-usb-dkms,
          ${misc:Depends},
 Recommends: task-rk3528,
-Description: Metapackages for mEdge series
+Description: Metapackages for mEdge RK3528A IO
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
