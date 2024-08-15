@@ -1,2 +1,2 @@
-SUBSYSTEM=="leds", KERNEL=="wan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="eth0", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
-SUBSYSTEM=="leds", KERNEL=="lan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="enp1s0", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
+SUBSYSTEM=="leds", KERNEL=="wan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="enp1s0", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
+SUBSYSTEM=="leds", KERNEL=="lan-led", ACTION=="add", ATTR{trigger}="netdev", ATTR{device_name}="eth0", ATTR{link}="1", ATTR{tx}="1", ATTR{rx}="1"
