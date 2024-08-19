@@ -1,3 +1,10 @@
+radxa-profiles (0.4.22) jammy; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: LED mapping was reversed
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 19 Aug 2024 07:05:40 +0000
+
 radxa-profiles (0.4.21) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
