@@ -1,3 +1,10 @@
+radxa-profiles (0.4.23) jammy; urgency=medium
+
+  [ Ken Wang ]
+  * feat: add rock5t
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 11 Oct 2024 08:25:41 +0000
+
 radxa-profiles (0.4.22) jammy; urgency=medium
 
   [ ZHANG Yuntian ]
