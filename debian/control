@@ -435,6 +435,21 @@ Description: Metapackages for ROCK 5B+
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-rock-5t
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
+         rtw89-dkms,
+         rtl8852bu-dkms,
+         radxa-system-config-rtk-btusb-dkms,
+         ${misc:Depends},
+Recommends: task-rk3588,
+Description: Metapackages for ROCK 5T
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-radxa-cm5-io
 Architecture: all
 Priority: optional
