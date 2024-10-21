@@ -347,7 +347,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
@@ -362,8 +361,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
-         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
@@ -378,7 +375,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
@@ -393,7 +389,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          aic8800-usb-dkms,
@@ -425,7 +420,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
@@ -440,7 +434,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
@@ -480,7 +473,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
          ${misc:Depends},
 Recommends: task-rk3588,
 Description: Metapackages for Radxa E52C
@@ -492,7 +484,6 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
-         radxa-system-config-r8125-dkms,
          rtw89-dkms,
          rtl8852bu-dkms,
          radxa-system-config-rtk-btusb-dkms,
