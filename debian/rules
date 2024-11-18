@@ -9,6 +9,7 @@ include /usr/share/dpkg/architecture.mk
 override_dh_installudev:
 	dh_installudev -ptask-rock-2 --name=led-netdev --priority=50
 	dh_installudev -ptask-radxa-e52c --name=led-netdev --priority=50
+	dh_installudev -ptask-radxa-e54c --name=led-netdev --priority=50
 
 override_dh_builddeb:
 	dh_builddeb -- -Zxz
