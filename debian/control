@@ -443,6 +443,17 @@ Description: Metapackages for ROCK 5T
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
+Package: task-radxa-cm4-rpi-cm4-io
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         ${misc:Depends},
+Recommends: task-rk3576,
+Description: Metapackages for Radxa CM4 on RPI CM4 IO Baseboard
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
 Package: task-radxa-cm5-io
 Architecture: all
 Priority: optional
