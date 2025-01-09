@@ -1,3 +1,13 @@
+radxa-profiles (0.4.26) jammy; urgency=medium
+
+  [ Chen Jiali ]
+  * fix: use radxa-system-config-aic8800-usb-dkms instead of aic8800-usb-dkms
+
+  [ ZHANG Yuntian ]
+  * feat: add task-orion-o6
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 09 Jan 2025 10:59:57 +0000
+
 radxa-profiles (0.4.25) jammy; urgency=medium
 
   [ Stephen Chen ]
