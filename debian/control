@@ -539,3 +539,27 @@ Recommends: task-cd8180,
 Description: Metapackages for Orion O6
  This package provides prebuilt packages from CIX that
  provides a more optimized user experience.
+
+Package: task-rk3528-generic
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-r8125-dkms,
+         radxa-system-config-aic8800-usb-dkms,
+         ${misc:Depends},
+Recommends: task-rk3528,
+Description: Metapackages for generic RK3528 image
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
+
+Package: task-rk3576-generic
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttyfiq0,
+         ${misc:Depends},
+Recommends: task-rk3576,
+Description: Metapackages for generic RK3576 image
+ This package provides prebuilt packages from Rockchip that
+ provides a more optimized user experience.
