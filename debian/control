@@ -540,7 +540,7 @@ Description: Metapackages for Orion O6
  This package provides prebuilt packages from CIX that
  provides a more optimized user experience.
 
-Package: task-rk3528-generic
+Package: task-radxa-rk3528
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
@@ -553,7 +553,7 @@ Description: Metapackages for generic RK3528 image
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.
 
-Package: task-rk3576-generic
+Package: task-radxa-rk3576
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
