@@ -1,3 +1,4 @@
+-include .github/local/Makefile.local
 PROJECT ?= radxa-profiles
 PREFIX ?= /usr
 ETCDIR ?= /etc
@@ -6,8 +7,15 @@ LIBDIR ?= $(PREFIX)/lib
 SHAREDIR ?= $(PREFIX)/share
 MANDIR ?= $(SHAREDIR)/man
 
+.DEFAULT_GOAL := all
 .PHONY: all
 all: build
+
+.PHONY: devcontainer_setup
+devcontainer_setup:
+	sudo dpkg --add-architecture arm64
+	sudo apt-get update
+	sudo apt-get build-dep . -y
 
 #
 # Test
@@ -19,7 +27,7 @@ test:
 # Build
 #
 .PHONY: build
-build: build-man build-doc
+build: build-man
 
 SRC-MAN		:=	man
 SRCS-MAN	:=	$(wildcard $(SRC-MAN)/*.md)
@@ -30,17 +38,6 @@ build-man: $(MANS)
 $(SRC-MAN)/%: $(SRC-MAN)/%.md
 	pandoc "$<" -o "$@" --from markdown --to man -s
 
-SRC-DOC		:=	.
-DOCS		:=	$(SRC-DOC)/SOURCE
-build-doc: $(DOCS)
-
-$(SRC-DOC):
-	mkdir -p $(SRC-DOC)
-
-.PHONY: $(SRC-DOC)/SOURCE
-$(SRC-DOC)/SOURCE: $(SRC-DOC)
-	echo -e "git clone $(shell git remote get-url origin)\ngit checkout $(shell git rev-parse HEAD)" > "$@"
-
 #
 # Clean
 #
@@ -48,15 +45,11 @@ $(SRC-DOC)/SOURCE: $(SRC-DOC)
 distclean: clean
 
 .PHONY: clean
-clean: clean-man clean-doc clean-deb
+clean: clean-man clean-deb
 
 .PHONY: clean-man
 clean-man:
 	rm -rf $(MANS)
-
-.PHONY: clean-doc
-clean-doc:
-	rm -rf $(DOCS)
 
 .PHONY: clean-deb
 clean-deb:
