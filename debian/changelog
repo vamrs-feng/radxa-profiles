@@ -1,3 +1,15 @@
+radxa-profiles (0.4.28) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: restore build configs
+  * feat: add rk3523 & rk3576 generic profiles
+  * chore: delete old workflows
+  * chore: sync make dch
+  * chore: rename profiles
+  * fix: add missing udev rule
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 01 Apr 2025 08:32:29 +0000
+
 radxa-profiles (0.4.27) noble; urgency=medium
 
   [ Chen Jiali ]
