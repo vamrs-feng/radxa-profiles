@@ -1,3 +1,11 @@
+radxa-profiles (0.4.29) noble; urgency=medium
+
+  [ ZHANG Yuntian ]
+  * fix: CM3I IO switch to rtw89
+  * fix: update workflow file name
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 08 Apr 2025 10:01:22 +0000
+
 radxa-profiles (0.4.28) noble; urgency=medium
 
   [ ZHANG Yuntian ]
