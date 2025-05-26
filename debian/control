@@ -558,6 +558,7 @@ Architecture: all
 Priority: optional
 Depends: radxa-system-config,
          radxa-system-config-kernel-cmdline-ttyfiq0,
+         radxa-system-config-aic8800-usb-dkms,
          ${misc:Depends},
 Recommends: task-rk3576,
 Description: Metapackages for generic RK3576 image
