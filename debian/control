@@ -540,6 +540,16 @@ Description: Metapackages for Orion O6
  This package provides prebuilt packages from CIX that
  provides a more optimized user experience.
 
+Package: task-radxa-dragon-q6a
+Architecture: all
+Priority: optional
+Depends: radxa-system-config,
+         radxa-system-config-kernel-cmdline-ttymsm0,
+         ${misc:Depends},
+Description: Metapackages for Dragon Q6A
+ This package provides prebuilt packages from Qualcomm that
+ provides a more optimized user experience.
+
 Package: task-radxa-rk3528
 Architecture: all
 Priority: optional
