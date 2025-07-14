@@ -583,6 +583,7 @@ Depends: radxa-system-config,
          rsetup-config-aic8800-ttyas1,
          radxa-system-config-aic8800-sdio-dkms,
          ${misc:Depends},
+Recommends: task-a527,
 Description: Metapackages for Radxa Cubie A5E
  This package provides prebuilt packages from Allwinner that
  provides a more optimized user experience.
