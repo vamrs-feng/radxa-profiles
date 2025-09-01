@@ -1,3 +1,16 @@
+radxa-profiles (0.4.34) noble; urgency=medium
+
+  [ dependabot[bot] ]
+  * chore(deps): bump actions/download-artifact from 4 to 5
+  * chore(deps): bump actions/checkout from 4 to 5
+  * chore(deps): bump actions/upload-pages-artifact from 3 to 4
+
+  [ Guoguo ]
+  * feat: enable vendor package for Dragon Q6A
+  * fix: add AIC8800 USB DKMS for radxa-dragon-q6a
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 01 Sep 2025 08:08:22 +0000
+
 radxa-profiles (0.4.33) noble; urgency=medium
 
   [ ZHANG Yuntian ]
