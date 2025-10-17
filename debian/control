@@ -539,7 +539,7 @@ Package: task-orion-o6
 Architecture: all
 Priority: optional
 Depends: radxa-system-config,
-         radxa-system-config-kernel-cmdline-ttyama2,
+         radxa-system-config-kernel-cmdline-ttyama0,
          r8126-dkms,
          rtw89-dkms,
          ${misc:Depends},
